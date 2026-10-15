@@ -1,0 +1,21 @@
+{
+  "name": "ai-skill-commit",
+  "interface": {
+    "displayName": "ai-skill-commit"
+  },
+  "plugins": [
+    {
+      "name": "commit",
+      "description": "Write and validate Conventional-Commits messages in a house style, matching the repo's own history. Use when committing, splitting work into commits, or checking a commit message.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
