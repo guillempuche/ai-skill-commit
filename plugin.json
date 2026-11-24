@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "commit",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Write and validate Conventional-Commits messages in a house style, matching the repo's own history. Use when committing, splitting work into commits, or checking a commit message.",
   "author": {
     "name": "guillempuche",
